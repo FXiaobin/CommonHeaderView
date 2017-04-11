@@ -13,6 +13,11 @@
 		1842B1871E9CB3540065CA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1842B1851E9CB3540065CA2F /* Main.storyboard */; };
 		1842B1891E9CB3540065CA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1842B1881E9CB3540065CA2F /* Assets.xcassets */; };
 		1842B18C1E9CB3540065CA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1842B18A1E9CB3540065CA2F /* LaunchScreen.storyboard */; };
+		1842B19A1E9CB36D0065CA2F /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B1951E9CB36D0065CA2F /* CollectionHeaderView.m */; };
+		1842B19B1E9CB36D0065CA2F /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B1971E9CB36D0065CA2F /* TableHeaderView.m */; };
+		1842B19C1E9CB36D0065CA2F /* UIButton+SSEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B1991E9CB36D0065CA2F /* UIButton+SSEdgeInsets.m */; };
+		1842B19F1E9CB50B0065CA2F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842B19E1E9CB50B0065CA2F /* DemoViewController.m */; };
+		6901C22CB9C727B2C86AD8C7 /* libPods-CommonHeaderView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BF40D01CDF451D092EC905 /* libPods-CommonHeaderView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		1842B1881E9CB3540065CA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1842B18B1E9CB3540065CA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1842B18D1E9CB3540065CA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1842B1941E9CB36D0065CA2F /* CollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderView.h; sourceTree = "<group>"; };
+		1842B1951E9CB36D0065CA2F /* CollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderView.m; sourceTree = "<group>"; };
+		1842B1961E9CB36D0065CA2F /* TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeaderView.h; sourceTree = "<group>"; };
+		1842B1971E9CB36D0065CA2F /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderView.m; sourceTree = "<group>"; };
+		1842B1981E9CB36D0065CA2F /* UIButton+SSEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SSEdgeInsets.h"; sourceTree = "<group>"; };
+		1842B1991E9CB36D0065CA2F /* UIButton+SSEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SSEdgeInsets.m"; sourceTree = "<group>"; };
+		1842B19D1E9CB50B0065CA2F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		1842B19E1E9CB50B0065CA2F /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		3A25337C089BB618740718A8 /* Pods-CommonHeaderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonHeaderView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonHeaderView/Pods-CommonHeaderView.debug.xcconfig"; sourceTree = "<group>"; };
+		D62A230A661306DBC23B514B /* Pods-CommonHeaderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonHeaderView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonHeaderView/Pods-CommonHeaderView.release.xcconfig"; sourceTree = "<group>"; };
+		E3BF40D01CDF451D092EC905 /* libPods-CommonHeaderView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonHeaderView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6901C22CB9C727B2C86AD8C7 /* libPods-CommonHeaderView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0139F77C972F99CA9334788D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A25337C089BB618740718A8 /* Pods-CommonHeaderView.debug.xcconfig */,
+				D62A230A661306DBC23B514B /* Pods-CommonHeaderView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1842B1701E9CB3540065CA2F = {
 			isa = PBXGroup;
 			children = (
 				1842B17B1E9CB3540065CA2F /* CommonHeaderView */,
 				1842B17A1E9CB3540065CA2F /* Products */,
+				0139F77C972F99CA9334788D /* Pods */,
+				80569004F2EF896623F3FFAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +86,13 @@
 		1842B17B1E9CB3540065CA2F /* CommonHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				1842B1931E9CB36D0065CA2F /* CommonHeader */,
 				1842B17F1E9CB3540065CA2F /* AppDelegate.h */,
 				1842B1801E9CB3540065CA2F /* AppDelegate.m */,
 				1842B1821E9CB3540065CA2F /* ViewController.h */,
 				1842B1831E9CB3540065CA2F /* ViewController.m */,
+				1842B19D1E9CB50B0065CA2F /* DemoViewController.h */,
+				1842B19E1E9CB50B0065CA2F /* DemoViewController.m */,
 				1842B1851E9CB3540065CA2F /* Main.storyboard */,
 				1842B1881E9CB3540065CA2F /* Assets.xcassets */,
 				1842B18A1E9CB3540065CA2F /* LaunchScreen.storyboard */,
@@ -79,6 +110,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1842B1931E9CB36D0065CA2F /* CommonHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1842B1941E9CB36D0065CA2F /* CollectionHeaderView.h */,
+				1842B1951E9CB36D0065CA2F /* CollectionHeaderView.m */,
+				1842B1961E9CB36D0065CA2F /* TableHeaderView.h */,
+				1842B1971E9CB36D0065CA2F /* TableHeaderView.m */,
+				1842B1981E9CB36D0065CA2F /* UIButton+SSEdgeInsets.h */,
+				1842B1991E9CB36D0065CA2F /* UIButton+SSEdgeInsets.m */,
+			);
+			path = CommonHeader;
+			sourceTree = "<group>";
+		};
+		80569004F2EF896623F3FFAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF40D01CDF451D092EC905 /* libPods-CommonHeaderView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1842B1901E9CB3540065CA2F /* Build configuration list for PBXNativeTarget "CommonHeaderView" */;
 			buildPhases = (
+				CFA20F68E182C7E5E70CAC8B /* [CP] Check Pods Manifest.lock */,
 				1842B1751E9CB3540065CA2F /* Sources */,
 				1842B1761E9CB3540065CA2F /* Frameworks */,
 				1842B1771E9CB3540065CA2F /* Resources */,
+				60AC8691AFF97D99EC4658AB /* [CP] Embed Pods Frameworks */,
+				38897D4DBC001C39E8286FA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,13 +200,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38897D4DBC001C39E8286FA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonHeaderView/Pods-CommonHeaderView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60AC8691AFF97D99EC4658AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonHeaderView/Pods-CommonHeaderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA20F68E182C7E5E70CAC8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1842B1751E9CB3540065CA2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1842B19B1E9CB36D0065CA2F /* TableHeaderView.m in Sources */,
 				1842B1841E9CB3540065CA2F /* ViewController.m in Sources */,
+				1842B19A1E9CB36D0065CA2F /* CollectionHeaderView.m in Sources */,
 				1842B1811E9CB3540065CA2F /* AppDelegate.m in Sources */,
+				1842B19C1E9CB36D0065CA2F /* UIButton+SSEdgeInsets.m in Sources */,
+				1842B19F1E9CB50B0065CA2F /* DemoViewController.m in Sources */,
 				1842B17E1E9CB3540065CA2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +379,7 @@
 		};
 		1842B1911E9CB3540065CA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A25337C089BB618740718A8 /* Pods-CommonHeaderView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CommonHeaderView/Info.plist;
@@ -283,6 +391,7 @@
 		};
 		1842B1921E9CB3540065CA2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62A230A661306DBC23B514B /* Pods-CommonHeaderView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CommonHeaderView/Info.plist;
@@ -311,6 +420,7 @@
 				1842B1921E9CB3540065CA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
